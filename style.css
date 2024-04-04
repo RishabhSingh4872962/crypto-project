@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    color: antiquewhite;
+    background-color:  #1A1A1C;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchsort{
+    color: aliceblue;
+    background: none;
+    border: 2px solid #8E8E8E;
+    margin: 5px;
+}
+
+input{
+    width: 450px;
+    height: 30px;
+    padding: 4px;
+}
+
+button{
+    width: 150px;
+    height: 41px;
+    padding: 4px;
+}
+.header{
+    display: flex;
+    margin-top: 50px;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+.cryptoCurrency{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    width: 1000px;
+}
+tr{
+    display: flex;
+    margin: 1px;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    
+}
+th{
+    height: 30px;
+}
+td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+   
+}
